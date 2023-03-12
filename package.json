@@ -1,0 +1,15 @@
+{
+  "name": "n315-homework-03",
+  "version": "1.0.0",
+  "description": "## Homework 3",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "live-server --port=5500"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
