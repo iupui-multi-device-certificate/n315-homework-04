@@ -1,7 +1,7 @@
 {
-  "name": "n315-homework-03",
+  "name": "n315-homework-04",
   "version": "1.0.0",
-  "description": "## Homework 3",
+  "description": "## Homework 4",
   "main": "index.js",
   "directories": {
     "lib": "lib"
