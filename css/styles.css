@@ -127,6 +127,14 @@ body {
   width: 100%;
 }
 
+.form-label {
+  display: block;
+  color: #fa8072;
+  margin-bottom: 1rem;
+  font-size: 1.33rem;
+  font-weight: bold;
+}
+
 .form-title {
   color: #fa8072;
   font-size: 2rem;
