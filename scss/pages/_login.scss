@@ -1,5 +1,17 @@
 .section-login {
   display: flex;
+  gap: 2rem;
+  padding: 0 2rem;
+}
 
-  gap: 3rem;
+//flex has to be on each item
+//https://css-tricks.com/almanac/properties/f/flex/
+form {
+  flex: 1 50%;
+}
+
+@media only screen and (max-width: $breakpoint-mobile) {
+  .section-login {
+    flex-direction: column;
+  }
 }
