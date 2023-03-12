@@ -140,6 +140,8 @@ body {
   font-size: 2rem;
   margin-bottom: 2rem;
   font-weight: bold;
+  text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
 
 .form-text-area {
