@@ -1,11 +1,16 @@
 import { users } from "./data/users.js";
 
-import { homeView, loginView } from "./views/view.js";
+import { homeView, editView, loginView } from "./views/view.js";
+
+//this should be in its own controller
+// const getItem = (itemID) => items.find((item) => itemID == item.id);
+// const requestedItem = getItem(itemID);
 
 const titleBase = "TBD";
 
 const routes = {
   home: homeView("Form Examples"),
+  edit: editView(users[0]),
   login: loginView(),
 };
 

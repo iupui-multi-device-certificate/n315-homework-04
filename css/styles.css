@@ -134,6 +134,10 @@ body {
   font-weight: bold;
 }
 
+.form-text-area {
+  height: 100px;
+}
+
 li {
   list-style: none;
 }
