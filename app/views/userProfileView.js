@@ -1,9 +1,9 @@
 //? combine with add form and pass the edit/create?
 //TODO: use fieldset
-export const editView = (user) => `
-  <section class="section-edit content">
-    <form class="edit-form" >
-      <div class="form-title">Edit Profile:</div>
+export const userProfileView = (user, edit = false) => `
+  <section class="section-user-profile content">
+    <form class="user-profile-form" >
+      <div class="form-title">${edit ? "Edit" : "Create"} Profile:</div>
       <input
         type="text"
         name="displayName"
@@ -109,7 +109,7 @@ export const editView = (user) => `
      
       <input
         type="submit"
-        value="Submit"
+        value="Save"
         class="btn btn--wide"
       />
     </form>
