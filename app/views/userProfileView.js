@@ -1,5 +1,3 @@
-//? combine with add form and pass the edit/create?
-//TODO: use fieldset
 export const userProfileView = (user, edit = false) => `
   <section class="section-user-profile content">
     <form class="user-profile-form" id="user-profile-${

@@ -2,10 +2,6 @@ import { users } from "./data/users.js";
 
 import { homeView, userProfileView, loginView } from "./views/view.js";
 
-//this should be in its own controller
-// const getItem = (itemID) => items.find((item) => itemID == item.id);
-// const requestedItem = getItem(itemID);
-
 const titleBase = "DevConnect";
 
 const routes = {
