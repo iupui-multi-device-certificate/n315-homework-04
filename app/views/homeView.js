@@ -1,4 +1,4 @@
-export const homeView = (title = "TBD", subtitle = "") => `
+export const homeView = (title = "DevConnect", subtitle = "") => `
   <section class="hero">   
       <div class="hero-cta">
         <h1>${title}</h1>

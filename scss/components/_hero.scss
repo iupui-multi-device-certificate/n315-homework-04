@@ -5,8 +5,8 @@
 
   //https://stackoverflow.com/questions/2504071/how-do-i-combine-a-background-image-and-css3-gradient-on-the-same-element
   background-image: linear-gradient(
-      rgba($brand-secondary, 0.3),
-      rgba($brand-secondary, 0.3)
+      rgba($brand-primary, 0.3),
+      rgba($brand-primary, 0.3)
     ),
     url("../images/hero.jpg");
   background-size: cover;
@@ -37,7 +37,7 @@
     p {
       font-size: 1.75rem;
       font-style: italic;
-      // color: $brand-secondary;
+      // color: $brand-primary;
     }
   }
 }

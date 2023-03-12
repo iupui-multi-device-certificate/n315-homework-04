@@ -41,7 +41,7 @@ p {
 
 body {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  background-color: rgba(62, 180, 137, 0.5);
+  background-color: rgba(255, 20, 147, 0.1);
 }
 
 .container {
@@ -56,7 +56,7 @@ body {
 }
 
 .hero {
-  background-image: linear-gradient(rgba(250, 128, 114, 0.3), rgba(250, 128, 114, 0.3)), url("../images/hero.jpg");
+  background-image: linear-gradient(rgba(255, 20, 147, 0.3), rgba(255, 20, 147, 0.3)), url("../images/hero.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -93,7 +93,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  background-color: #fa8072;
+  background-color: #ff1493;
 }
 .btn--round {
   border-radius: 1.875rem;
@@ -129,14 +129,14 @@ body {
 
 .form-label {
   display: block;
-  color: #fa8072;
+  color: #ff1493;
   margin-bottom: 1rem;
   font-size: 1.33rem;
   font-weight: bold;
 }
 
 .form-title {
-  color: #fa8072;
+  color: #ff1493;
   font-size: 2rem;
   margin-bottom: 2rem;
   font-weight: bold;
@@ -151,11 +151,14 @@ li {
 }
 
 a {
-  text-decoration: none;
+  color: #fff;
+  text-decoration-color: #fff;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.5rem;
 }
-
-.fa-seedling {
-  color: #fa8072;
+a:hover {
+  color: #ff1493;
+  text-decoration-color: #ff1493;
 }
 
 .header {
@@ -165,6 +168,7 @@ a {
   left: 0;
   z-index: 1030;
   margin-bottom: 2rem;
+  background-color: #000;
 }
 
 .navbar {
@@ -184,7 +188,7 @@ a {
   height: 3px;
   margin: 5px auto;
   transition: all 0.3s ease-in-out;
-  background-color: #fa8072;
+  background-color: #ff1493;
 }
 
 .nav-menu {
@@ -197,17 +201,17 @@ a {
 .nav-link {
   font-size: 1.6rem;
   font-weight: 400;
-  color: #fa8072;
+  color: #ff1493;
 }
 
 .nav-link:hover {
-  color: #3eb489;
+  color: #ff1493;
 }
 
 .nav-logo {
   font-size: 2.1rem;
   font-weight: 500;
-  color: #3eb489;
+  color: #ff1493;
 }
 
 @media only screen and (max-width: 960px) {
@@ -218,11 +222,10 @@ a {
     flex-direction: column;
     justify-content: center;
     gap: 3rem;
-    background-color: #3eb489;
+    background-color: rgba(0, 0, 0, 0.9);
     height: 100vh;
     width: 100%;
     transition: 0.3s;
-    background-color: #3eb489;
   }
   .nav-menu.active {
     left: 0;

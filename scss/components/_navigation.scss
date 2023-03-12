@@ -3,11 +3,14 @@ li {
 }
 
 a {
-  text-decoration: none;
-}
-
-.fa-seedling {
-  color: $brand-secondary;
+  color: $brand-light;
+  text-decoration-color: $brand-light;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.5rem;
+  &:hover {
+    color: $brand-primary;
+    text-decoration-color: $brand-primary;
+  }
 }
 
 .header {
@@ -18,6 +21,7 @@ a {
   z-index: 1030;
 
   margin-bottom: $spacing-xl;
+  background-color: $brand-dark;
 }
 
 .navbar {
@@ -38,7 +42,7 @@ a {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: $brand-secondary;
+  background-color: $brand-primary;
 }
 
 .nav-menu {
@@ -51,7 +55,7 @@ a {
 .nav-link {
   font-size: 1.6rem;
   font-weight: 400;
-  color: $brand-secondary;
+  color: $brand-primary;
 }
 
 .nav-link:hover {
@@ -73,12 +77,11 @@ a {
     justify-content: center;
     gap: 3rem;
 
-    background-color: $brand-primary;
+    background-color: rgb($brand-dark, 0.9);
     height: 100vh;
     width: 100%;
 
     transition: 0.3s;
-    background-color: $brand-primary;
   }
 
   .nav-menu.active {
