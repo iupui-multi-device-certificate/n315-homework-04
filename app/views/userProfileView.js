@@ -2,7 +2,9 @@
 //TODO: use fieldset
 export const userProfileView = (user, edit = false) => `
   <section class="section-user-profile content">
-    <form class="user-profile-form" >
+    <form class="user-profile-form" id="user-profile-${
+      edit ? `edit` : `create`
+    }">
       <div class="form-title">${edit ? "Edit" : "Create"} Profile:</div>
       <input
         type="text"

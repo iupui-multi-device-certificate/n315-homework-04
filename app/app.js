@@ -45,9 +45,23 @@ function initListeners() {
     toggleMobileMenu();
   });
 
-  $(".btn").click(function (e) {
-    // console.log("id of button clicked: ", e.currentTarget.id);s
-    alert("id of button clicked: " + e.currentTarget.id);
+  /* 
+    https://www.freecodecamp.org/news/how-to-submit-a-form-with-javascript/ 
+    https://www.valentinog.com/blog/form-data/
+    https://www.w3schools.com/jquery/event_submit.asp
+    https://developer.mozilla.org/en-US/docs/Web/API/FormData
+    
+    Note: when we progress to sending to backend, can just send formData via post.
+  */
+  //could be added to both save & edit forms using class
+  $("#user-profile-edit").submit(function (e) {
+    e.preventDefault();
+
+    const formData = new FormData(this);
+
+    for (const formElement of formData) {
+      console.log(formElement);
+    }
   });
 }
 $(document).ready(function () {
