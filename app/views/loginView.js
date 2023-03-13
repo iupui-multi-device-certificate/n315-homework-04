@@ -22,6 +22,8 @@ export const loginView = () => `
         type="submit"
         value="Login"
         class="btn btn--wide"
+        name="login"
+        id="login"  
       />
     </form>
     <form class="registration-form" >
@@ -62,6 +64,8 @@ export const loginView = () => `
         type="submit"
         value="Sign Up"
         class="btn btn--wide"
+        name="signup"
+        id="signup"
       />
     </form>
   </section>
