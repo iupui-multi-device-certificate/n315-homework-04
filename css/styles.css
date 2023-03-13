@@ -94,6 +94,7 @@ body {
   text-transform: uppercase;
   color: #fff;
   background-color: #ff1493;
+  cursor: pointer;
 }
 .btn--round {
   border-radius: 1.875rem;

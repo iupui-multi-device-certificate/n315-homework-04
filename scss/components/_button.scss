@@ -14,7 +14,7 @@
 
   color: $brand-light;
   background-color: $brand-primary;
-  // font-size: $font-size--15;
+  cursor: pointer;
 
   &--round {
     @extend .btn;
