@@ -37,6 +37,10 @@ const toggleMobileMenu = () => {
     Note: when we progress to sending to backend, can just send formData via post.
 */
 const handleSubmit = (e) => {
+  /*
+    TODO: fix - the prevent default does not work the first time the page loads.
+    after page loads, preventDefault works. clicking submit button does not wipe out data, etc.
+  */
   e.preventDefault();
 
   const formData = new FormData(e.currentTarget.form);
